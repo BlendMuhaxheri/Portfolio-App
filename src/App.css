@@ -1,0 +1,38 @@
+/*menu links */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+body {
+  font-family: "Roboto Condensed"sans-serif;
+}
+
+.nav-link {
+  /* font-weight: 500; */
+  letter-spacing: 0.0375rem;
+  cursor: pointer;
+  font-size: .8rem;
+}
+
+nav ul li {
+  text-transform: uppercase;
+}
+
+.navbar-nav>li a {
+  color: white !important;
+  margin-right: 10px;
+  margin-left: 10px;
+  border-top: 3px solid rgba(255, 255, 255, 0);
+}
+
+/* .navbar-brand {
+  max-width: 17.25rem;
+  padding: 0 !important;
+  height: 6rem !important;
+} */
+
+.navbar-nav>li>a.active, .navbar-nav>li>a.active:focus {
+  border-top: 3px solid orange;
+}
+
+.navbar-nav>li>a:hover {
+  border-top: 3px solid orange;
+}
